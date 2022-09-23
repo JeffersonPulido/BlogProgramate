@@ -1,4 +1,42 @@
 # BlogProgramate
+
+# Project Title
+
+Este proyecto es el rediseño del blog de Loki entregado en Prográmate, con el fin de practicar la estructura HTML y sintaxis basica de CSS.
+
+
+## 🛠 Skills
+Javascript, HTML, CSS, w3
+
+
+## Authors
+
+- [@JeffersonPulido](https://www.github.com/JeffersonPulido)
+
+
+## Deployment
+
+Para desplegar este proyecto:
+
+```bash
+  Clonar o descargar repositorio
+```
+```bash
+  Ejecutar archivo Index.html
+```
+
+## Demo
+
+https://blogoutlast.netlify.app
+
+
+## API Reference
+
+```http
+  N/A
+```
+
+
 <h1 align="center">Hola 👋, Me llamo Jefferson Pulido</h1>
 <h3 align="center">Soy Desarrollador Web Junior, tengo conocimientos <b>básicos</b> en PHP, HTML, CSS y otros... Soy responsable y autodidacta!</h3>
 
