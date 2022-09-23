@@ -1,7 +1,5 @@
 # BlogProgramate
 
-# Project Title
-
 Este proyecto es el rediseño del blog de Loki entregado en Prográmate, con el fin de practicar la estructura HTML y sintaxis basica de CSS.
 
 
