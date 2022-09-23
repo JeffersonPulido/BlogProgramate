@@ -13,34 +13,29 @@
     <link rel="shortcut icon" href="assets/img/icono.ico" />
     <link rel="stylesheet" href="assets/css/index.css">
   </head>
-  <body class="w3-light-grey">
+  <body class="w3-dark">
     <!-- Navigation bar with social media icons -->
-    <div class="w3-bar w3-white w3-hide-small">
-      <a href="#" class="w3-bar-item w3-white"><i class="fa fa-facebook"></i></a>
-      <a href="#" class="w3-bar-item w3-white"><i class="fa fa-instagram"></i></a>
-      <a href="#" class="w3-bar-item w3-white"><i class="fa fa-snapchat"></i></a>
-      <a href="#" class="w3-bar-item w3-white"><i class="fa fa-flickr"></i></a>
-      <a href="#" class="w3-bar-item w3-white"><i class="fa fa-twitter"></i></a>
-      <a href="#" class="w3-bar-item w3-white"><i class="fa fa-linkedin"></i></a>
-      <a href="#footer" class="w3-bar-item w3-black w3-right"><i class="fa fa-arrow-down"></i></a>
+    <div class="w3-bar w3-black w3-hide-small w3-top">
+      <a href="#" class="w3-bar-item w3-black"><i class="fa fa-home"></i></a>
+      <a href="#" class="w3-bar-item w3-black w3-right"><i class="fa fa-link"></i> Red Barrels</a>
     </div>
 
     <div class="w3-content" style="max-width: 1600px">
       <!-- Header -->
-      <header id="home" class="w3-container w3-center w3-padding-48 w3-black">
-        <h1 class="w3-xxxlarge"><b>OUTLAST </b></h1>
-        <h6>Bienvenidos al <span class="w3-tag">infierno</span></h6>
+      <header id="home" class="w3-container w3-center w3-padding-48 w3-black w3-animate-left">
+        <h1 class="w3-xxxlarge w3-animate-fading"><b>OUTLAST </b></h1>
+        <h6>Bienvenidos al <span class="w3-tag w3-animate-top">infierno</span></h6>
       </header>
 
       <!-- Image header -->
-      <header class="w3-display-container w3-wide" id="home">
+      <header class="w3-display-container w3-wide " id="home">
         <img class="w3-image" src="assets/img/banner.webp" alt="Banner Blog" width="1600" height="1060"/>
-        <div class="w3-display-left w3-padding-large">
+        <div class="w3-display-left w3-padding-large ">
           <h1 class="w3-jumbo w3-text-white w3-hide-small">
             <b>¿Listo para esconderse?</b>
           </h1>
           <h6>
-            <button class="w3-button w3-padding-large" onclick="document.getElementById('download').style.display='block'">
+            <button class="w3-button w3-padding-large w3-animate-zoom" onclick="document.getElementById('download').style.display='block'">
               Descargar BETA
             </button>
           </h6>
@@ -52,7 +47,7 @@
         <!-- Blog entries -->
         <div class="w3-col l8 s12">
           <!-- Blog entry -->
-          <div class="w3-container w3-white w3-margin w3-padding-large">
+          <div class="w3-container w3-black w3-margin w3-padding-large w3-animate-left">
             <div class="w3-center">
               <h3>OUTLAST I</h3>
             </div>
@@ -63,135 +58,127 @@
                 <strong> El juego original de Outlast lanzado en 2013 toma lugar en las remotas montañas de Colorado donde el horror espera dentro del Hospital Psiquiátrico de Mount Massive. Una gran casa abandonada para los enfermos mentales, el Manicomio Mount Massive fue recientemente reinagurado por la "Research and Charity” sucursal de la transnacional Corporación Murkoff, y ha estado operando en absoluto secreto. Actuando por consejo de una fuente anónima, el periodista independiente Miles Upshur irrumpe en la facilidad y lo que el descubre camina totalmente en la linea entre lo terrorífico, la ciencia, religión, naturaleza y algo más. Una vez dentro, su única esperanza de escapar se encuentra con la terrible verdad en el corazón de Mount Massive. 
               </p>
               <p class="w3-left">
-                <button class="w3-button w3-white w3-border" onclick="likeFunction(this)">
+                <button class="w3-button w3-white w3-border" onclick="likeFunction(this)" id="btnLike1">
                   <b><i class="fa fa-thumbs-up"></i> Like</b>
                 </button>
               </p>
               <p class="w3-right">
                 <button class="w3-button w3-black"  onclick="myFunction('demo1')" id="myBtn">
-                  <b>Replies  </b> <span class="w3-tag w3-white">1</span>
+                  <b>Reseñas  </b> <span class="w3-tag w3-white">1</span>
                 </button>
               </p>
-
               <p class="w3-clear"></p>
+              <!--RESEÑA-->
               <div class="w3-row w3-margin-bottom" id="demo1" style="display: none" >
                 <hr />
                 <div class="w3-col l2 m3">
-                  <img src="assets/img/MLR_Freya.webp" style="width: 90px" />
+                  <img src="assets/img/destructor1212.webp" style="width: 90px" />
                 </div>
                 <div class="w3-col l10 m9">
-                  <h4> Freya <span class="w3-opacity w3-medium" >May 3, 2006, 6:32 PM</span></h4>
-                  <p>Mi Dios norico favorito es Loki</p>
+                  <h4> Destructor1212 <span class="w3-opacity w3-medium" >Dic 31, 2020</span></h4>
+                  <p>El primer juego de terror en primera persona que enserio de miedo. Un jugabilidad que al menos a mi me gusta bastante. Un sonido espectacular. El juego de mucho miedo. Para mi es muy divertido. La trama es bastante turbia. Artísticamente es muy enturbiada nuevamente. Los fans de los juegos de terror o que tengan una VR para que les de un paro cardiaco. Recomendadisimo, esta barato steam :D</p>
                 </div>
               </div>
             </div>
           </div>
           <hr />
-
           <!-- Blog entry -->
-          <div class="w3-container w3-white w3-margin w3-padding-large">
+          <div class="w3-container w3-black w3-margin w3-padding-large w3-animate-left">
             <div class="w3-center">
-              <h3>Hijo de la gigante Angrboða y Loki</h3>
-              <h5>
-                La gran serpiente de Midgard,
-                <span class="w3-opacity">SsSsS</span>
-              </h5>
+              <h3>OUTLAST DLC Whistleblower</h3>
             </div>
 
             <div class="w3-justify">
-              <img
-                src="assets/img/MLR_Ryusuke_Yamino.webp"
-                alt="Runway"
-                style="width: 100%"
-                class="w3-padding-16"
-              />
-              <p><strong>Ryusuke Yamino</strong> Una gran serpiente!</p>
-              <p>
-                Yamino Ryusuke es un chico educado con gafas que se desempeña
-                como ama de llaves, cocinero y asistente de Loki en la Agencia
-                de Detectives Enjaku. Le gusta cocinar, limpiar y otras
-                actividades domésticas. Se revela que en realidad es el hijo de
-                Loki y su verdadero nombre es Jormungand, una serpiente.
-              </p>
-              <p class="w3-left">
-                <button
-                  class="w3-button w3-white w3-border"
-                  onclick="likeFunction(this)"
-                >
+              <img src="assets/img/outlast_whistleblower.webp" alt="outlast_whistleblower"style="width: 100%" class="w3-padding-16"/>
+              <p>Algunas horas después de que un extraño evento causara la liberación de todos los pacientes, Park, con una cámara de mano, comienza a recorrer el manicomio tras escapar de su celda solo para descubrir que los pacientes enloquecidos se encuentran masacrando a los empleados y guardias del manicomio. Al poco tiempo, Park comienza a ser perseguido por un paciente que práctica el canibalismo, Frank Manera. Habiendo eludido al peligroso paciente, Park intenta escapar del manicomio pidiendo ayuda por radio pero es interrumpido por Blaire, que destruye la radio, lo noquea y deja a su suerte en los pasillos, donde deambula el paciente Chris Walker. </p>
+              <p class="w3-left"> 
+                <button class="w3-button w3-white w3-border" onclick="likeFunction(this)">
                   <b><i class="fa fa-thumbs-up"></i> Like</b>
                 </button>
               </p>
               <p class="w3-right">
-                <button
-                  class="w3-button w3-black"
-                  onclick="myFunction('demo3')"
-                >
-                  <b>Replies  </b> <span class="w3-tag w3-white">3</span>
+                <button class="w3-button w3-black" onclick="myFunction('demo3')" >
+                  <b>Reseñas  </b> <span class="w3-tag w3-white">2</span>
                 </button>
               </p>
               <p class="w3-clear"></p>
-
-              <!-- Example of comment field -->
+              <!--RESEÑA-->
               <div id="demo3" style="display: none">
                 <hr />
                 <div class="w3-row w3-margin-bottom">
                   <div class="w3-col l2 m3">
-                    <img
-                      src="assets/img/MLR_Heimdall.webp"
-                      style="width: 90px"
-                    />
+                    <img src="assets/img/user.webp" style="width: 90px"/>
                   </div>
                   <div class="w3-col l10 m9">
-                    <h4>
-                      Heimdall<span class="w3-opacity w3-medium"
-                        >April 10, 2015, 7:22 PM</span
-                      >
-                    </h4>
-                    <p>Que aburrido eres Jormungand.</p>
+                    <h4>Cves<span class="w3-opacity w3-medium"> May 13, 2014</span></h4>
+                    <p>Jamas tuve dudas del DLC, sabia que lo volvería a pasar mal y no defraudo. Definitivamente el mejor juego de terror de la actualidad, es totalmente demente, hardcore, donde la imaginación de los creadores se desarrolla sin censura.</p>
                   </div>
                 </div>
                 <div class="w3-row w3-margin-bottom">
                   <div class="w3-col l2 m3">
-                    <img
-                      src="assets/img/MLR_Loki_adulto.webp"
-                      style="width: 90px"
-                    />
+                    <img src="assets/img/user2.webp" style="width: 90px"/>
                   </div>
                   <div class="w3-col l10 m9">
-                    <h4>
-                      Loki
-                      <span class="w3-opacity w3-medium"
-                        >April 8, 2015, 10:32 PM</span
-                      >
-                    </h4>
-                    <p>No seas odioso Heimdall deja en paz a mi hijo.</p>
-                  </div>
-                </div>
-                <div class="w3-row w3-margin-bottom">
-                  <div class="w3-col l2 m3">
-                    <img src="assets/img/MLR_Frey.webp" style="width: 90px" />
-                  </div>
-                  <div class="w3-col l10 m9">
-                    <h4>
-                      Frey
-                      <span class="w3-opacity w3-medium"
-                        >April 7, 2015, 9:12 PM</span
-                      >
-                    </h4>
-                    <p>Padre tu favorito es Jormungand siempre lo defiendes!</p>
+                    <h4>Ronauber<span class="w3-opacity w3-medium"> May 11, 2014</span></h4>
+                    <p>En esta ` 2da `  entrega de Outlast seremos Waylon Park en el Outlast 1 eramos ( Miles Upshur ) . Este juego se ubica antes de que Miles fuera al manicomio , y se traumara bla bla bla jaja , este juego nos ayudara mas que todo a entender el origen de todo . </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <hr />
+          <!-- Blog entry -->
+          <div class="w3-container w3-black w3-margin w3-padding-large w3-animate-left">
+            <div class="w3-center">
+              <h3>OUTLAST II</h3>
+            </div>
 
+            <div class="w3-justify">
+              <img src="assets/img/outlast_2.webp" alt="outlast_whistleblower"style="width: 100%" class="w3-padding-16"/>
+              <p>Blake y Lynn Langermann son una pareja de reporteros que deciden viajar al desierto de Arizona a realizar un reportaje sobre el más reciente caso que investigan; la misteriosa muerte de una joven embarazada sin identificar que fue encontrada deambulando sola cerca del desierto de Arizona. Mientras sobrevuelan por la zona en un helicóptero, una intensa luz los aturde y posteriormente sufren de un accidente aéreo por una falla en el motor. Blake sobrevive al incidente solo para descubrir al piloto muerto y despellejado en una estaca, y a Lynn desaparecida.</p>
+              <p class="w3-left"> 
+                <button class="w3-button w3-white w3-border" onclick="likeFunction(this)">
+                  <b><i class="fa fa-thumbs-up"></i> Like</b>
+                </button>
+              </p>
+              <p class="w3-right">
+                <button class="w3-button w3-black" onclick="myFunction('demo4')" >
+                  <b>Reseñas  </b> <span class="w3-tag w3-white">2</span>
+                </button>
+              </p>
+              <p class="w3-clear"></p>
+              <!--RESEÑA-->
+              <div id="demo4" style="display: none">
+                <hr />
+                <div class="w3-row w3-margin-bottom">
+                  <div class="w3-col l2 m3">
+                    <img src="assets/img/user3.webp" style="width: 90px"/>
+                  </div>
+                  <div class="w3-col l10 m9">
+                    <h4>Halothebest<span class="w3-opacity w3-medium"> April 1, 2021</span></h4>
+                    <p>Le doy 0,5 más que a su predecesor porque me ha parecido más variado en escenarios y las novedades jugables son bastante jugosas e interesantes.
+                      En un futuro Outlast 3 me gustaría que la trama fuera más original, en ese sentido me gustó más el primer Outlast.</p>
+                  </div>
+                </div>
+                <div class="w3-row w3-margin-bottom">
+                  <div class="w3-col l2 m3">
+                    <img src="assets/img/user4.webp" style="width: 90px"/>
+                  </div>
+                  <div class="w3-col l10 m9">
+                    <h4>Asassinxd19<span class="w3-opacity w3-medium"> Dic 16, 2020</span></h4>
+                    <p>En fin ¿Recomiendo comprar Outlast 2? Claro que sí, te va a seguir sacando algunos sustos y haciéndotelo pasar mal pero si es verdad que si has jugado al primero y a su DLC te será menos difícil de jugarlo al juego , gracias por leer mi review y hasta la próxima!!!!!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <!-- END BLOG ENTRIES -->
         </div>
 
         <!-- About/Information menu -->
         <div class="w3-col l4">
           <!-- About Card -->
-          <div class="w3-white w3-margin">
+          <div class="w3-white w3-margin w3-animate-right">
             <img src="assets/img/Outlast_Miles_Upshur_1.webp" alt="Personaje Principal" style="width: 100%"/>
             <div class="w3-container w3-reddark">
               <h4>Miles Upshur</h4>
@@ -287,8 +274,8 @@
             <div class="w3-container w3-padding w3-reddark">
               <h4>Trailer</h4>
             </div>
-            <div class="w3-container w3-xlarge w3-padding">
-              <iframe width="460" height="315" src="https://www.youtube.com/embed/8IZv7TdM-NU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="w3-container w3-padding">
+              <iframe style="width: 100%; height: 35vh;" src="https://www.youtube.com/embed/8IZv7TdM-NU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
           <hr />
@@ -320,26 +307,14 @@
     </div>
 
     <!-- Footer -->
-    <footer id="footer" class="w3-container" style="padding: 32px">
-      <a href="#" class="w3-button w3-right w3-black w3-padding-small w3-margin-bottom"><i class="fa fa-arrow-up"></i></a>
+    <footer id="footer" class="w3-container w3-bottom" style="padding: 20px">
+      <a class="w3-button w3-right w3-reddark w3-padding-small" onclick="document.getElementById('download').style.display='block'"><i class="fa fa-download"></i></a>
     </footer>
-
-    <script>
-      // Toggle between hiding and showing blog replies/comments
-      document.getElementById("myBtn").click();
-      function myFunction(id) {
-        var x = document.getElementById(id);
-        if (x.className.indexOf("w3-show") == -1) {
-          x.className += " w3-show";
-        } else {
-          x.className = x.className.replace(" w3-show", "");
-        }
-      }
-
-      function likeFunction(x) {
-        x.style.fontWeight = "bold";
-        x.innerHTML = "✓ Liked";
-      }
-    </script>
+    <div class="footerPag">
+      <div class="w3-container w3-center w3-black">
+        <p>Adaptacion realizada por <span class="jpulido w3-animate-left">JPulidoDev</span> - Pagina Original <span class="programate w3-animate-bottom">Prográmate </span> - 2022 Copyright ©</p>
+      </div>
+    </div>
+    <script src="assets/js/app.js"></script>
   </body>
 </html>

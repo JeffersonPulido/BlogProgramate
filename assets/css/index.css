@@ -4,6 +4,9 @@
     font-family: 'Chakra Petch', sans-serif;
     scroll-behavior: smooth;
 }
+body{
+    background-color: rgb(43, 43, 43);
+}
 .w3-tag{
     background-color: #831717;
     font-weight: 600;
@@ -27,4 +30,17 @@ h4{
 .w3-greendark{
     background-color: #2d5641;
     color: whitesmoke;
+}
+
+a{
+    text-decoration: none;
+}
+.jpulido{
+    color: orangered;
+}
+.programate{
+    color: yellow;
+}
+.footerPag a{
+    text-decoration: underline;
 }
